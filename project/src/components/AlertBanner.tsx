@@ -10,8 +10,8 @@ interface Props {
 const AlertBanner: React.FC<Props> = ({ temperature, humidity, moisture, motorStatus }) => {
   const alerts: string[] = [];
 
-  if (moisture < 30) alerts.push("🚨 Moisture too low! Water your plant.");
-  else if (moisture > 80) alerts.push("⚠️ Moisture too high! Avoid overwatering.");
+  if (moisture > 600) alerts.push("🚨 Moisture too low! Water your plant.");
+  else if (moisture < 200 ) alerts.push("⚠️ Moisture too high! Avoid overwatering.");
 
   if (temperature < 10) alerts.push("❄️ Temperature too low!");
   else if (temperature > 35) alerts.push("🔥 Temperature too high!");

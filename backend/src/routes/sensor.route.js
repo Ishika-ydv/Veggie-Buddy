@@ -6,7 +6,6 @@ const router = express.Router();
 router.get("/latest", async (req, res) => {
   try {
     const latest = await SensorData.findOne().sort({ timestamp: -1 });
-    console.log("printing",latest)
     res.json(latest);
   } catch (err) {
     res.status(500).json({ error: "Failed to fetch data" });

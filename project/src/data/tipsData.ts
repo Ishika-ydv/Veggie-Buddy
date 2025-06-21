@@ -71,7 +71,7 @@ export const tipsData: Tip[] = [
     id: 'tip3',
     title: 'Soil Health for Container Gardens',
     category: 'general',
-    image: 'https://images.pexels.com/photos/7782515/pexels-photo-7782515.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    image: 'https://www.thespruce.com/thmb/VA7xpXC6WabuEfrZpJIPWVlOPHw=/4206x0/filters:no_upscale():max_bytes(150000):strip_icc()/healthy-soil-and-how-to-make-it-2539853-hero-fdf9b0280dca41cb8ae9614e6fc4a0b0.jpg',
     content: [
       'The foundation of any successful garden is healthy soil, and this is especially true for container gardens. Container soil needs to provide adequate nutrition, good water retention, and proper drainage.',
       'Unlike in-ground gardens, container soil doesn\'t naturally replenish its nutrients or beneficial microorganisms, so it requires more attention and care.'
@@ -104,7 +104,7 @@ export const tipsData: Tip[] = [
     id: 'tip4',
     title: 'Managing Common Garden Pests',
     category: 'pests',
-    image: 'https://images.pexels.com/photos/9295839/pexels-photo-9295839.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    image: 'https://static1.backyardbossimages.com/wordpress/wp-content/uploads/2022/05/Untitled-design-7.png',
     content: [
       'Even rooftop gardens can experience pest problems. The good news is that container gardens often have fewer pest issues than ground-level gardens, and many problems can be managed with organic and non-toxic approaches.',
       'Regular monitoring and early intervention are key to preventing small pest problems from becoming major infestations that damage your plants and reduce your harvest.'
@@ -170,7 +170,7 @@ export const tipsData: Tip[] = [
     id: 'tip6',
     title: 'Dealing with Aphids Naturally',
     category: 'pests',
-    image: 'https://images.pexels.com/photos/7194881/pexels-photo-7194881.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    image: 'https://cdn.mos.cms.futurecdn.net/wpxqE5KoTscXNeAnmJrWv-1200-80.jpg',
     content: [
       'Aphids are small, soft-bodied insects that can quickly multiply and damage your plants by sucking sap from stems and leaves. They\'re particularly fond of new growth and can transmit plant diseases.',
       'Fortunately, there are many effective natural methods to control aphids without resorting to harmful chemicals that might damage your edible plants or the environment.'
@@ -236,7 +236,7 @@ export const tipsData: Tip[] = [
     id: 'tip8',
     title: 'Natural Fungus Prevention',
     category: 'pests',
-    image: 'https://images.pexels.com/photos/2286776/pexels-photo-2286776.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    image: 'https://www.epicgardening.com/wp-content/uploads/2023/11/Septoria-Leaf-Spot.jpeg',
     content: [
       'Fungal diseases like powdery mildew, leaf spot, and blight can quickly spread through a garden, especially in humid conditions or when plants are crowded. Prevention is much easier than treatment once fungi have established.',
       'By creating conditions that discourage fungal growth and using natural preventive measures, you can keep your plants healthy and productive.'
@@ -302,7 +302,7 @@ export const tipsData: Tip[] = [
     id: 'tip10',
     title: 'Companion Planting Basics',
     category: 'general',
-    image: 'https://images.pexels.com/photos/2560809/pexels-photo-2560809.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    image: 'https://cdn.mos.cms.futurecdn.net/HQEdFWSSv67YV6rGL5hHuX-1280-80.jpg.webp',
     content: [
       'Companion planting is the practice of growing certain plants near each other for mutual benefit. These benefits can include pest deterrence, improved pollination, enhanced growth, and maximized use of space.',
       'In container and rooftop gardens, thoughtful companion planting can help you create a more resilient, productive, and balanced growing environment.'

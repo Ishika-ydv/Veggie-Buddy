@@ -15,13 +15,13 @@ const Footer = () => {
               Helping you grow fresh vegetables at home efficiently and sustainably.
             </p>
             <div className="mt-4 flex space-x-4">
-              <a href="#" className="text-green-200 hover:text-white transition-colors">
+              <a href="mailto:usershreyash@gmail.com" className="text-green-200 hover:text-white transition-colors">
                 <Mail className="h-5 w-5" />
               </a>
-              <a href="#" className="text-green-200 hover:text-white transition-colors">
+              <a href="https://www.instagram.com/shreyazh" target="_blank" rel="noopener noreferrer" className="text-green-200 hover:text-white transition-colors">
                 <Instagram className="h-5 w-5" />
               </a>
-              <a href="#" className="text-green-200 hover:text-white transition-colors">
+              <a href="https://x.com/iamsrivastva" target="_blank" rel="noopener noreferrer" className="text-green-200 hover:text-white transition-colors">
                 <Twitter className="h-5 w-5" />
               </a>
             </div>
@@ -57,24 +57,24 @@ const Footer = () => {
             <h3 className="text-lg font-medium">Resources</h3>
             <ul className="mt-4 space-y-2">
               <li>
-                <a href="#" className="text-green-200 hover:text-white transition-colors">
+                <Link to="/blog" className="text-green-200 hover:text-white transition-colors">
                   Blog
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="text-green-200 hover:text-white transition-colors">
+                <Link to="/faqs" className="text-green-200 hover:text-white transition-colors">
                   FAQs
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="text-green-200 hover:text-white transition-colors">
+                <Link to="/tutorials" className="text-green-200 hover:text-white transition-colors">
                   Tutorials
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="text-green-200 hover:text-white transition-colors">
+                <Link to="/contact" className="text-green-200 hover:text-white transition-colors">
                   Contact Support
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

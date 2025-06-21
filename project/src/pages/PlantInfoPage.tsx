@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
-import { Search, Filter } from 'lucide-react';
+import { Search, Filter, BookOpen, HelpCircle, Video, Mail } from 'lucide-react';
+import { Link } from 'react-router-dom';
 import PlantCard from '../components/plants/PlantCard';
 import PlantFilters from '../components/plants/PlantFilters';
 import { usePlants } from '../hooks/usePlants';
@@ -45,7 +46,7 @@ const PlantInfoPage = () => {
       
       if (activeFilters.season.length > 0) {
         result = result.filter(plant => 
-          plant.growingSeason && activeFilters.season.some(s => plant.growingSeason.includes(s))
+          plant.growingSeason && activeFilters.season.includes(plant.growingSeason)
         );
       }
       
@@ -163,6 +164,53 @@ const PlantInfoPage = () => {
               ))}
             </div>
           )}
+        </div>
+      </div>
+
+      {/* Related Resources Section */}
+      <div className="mt-12 bg-white rounded-lg shadow p-6">
+        <h2 className="text-2xl font-bold text-gray-900 mb-6">Learn More About Plants</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <Link 
+            to="/blog" 
+            className="flex items-center gap-3 p-4 bg-green-50 rounded-lg hover:bg-green-100 transition-colors"
+          >
+            <BookOpen className="h-6 w-6 text-green-600" />
+            <div>
+              <h3 className="font-medium text-green-800">Plant Care Blog</h3>
+              <p className="text-sm text-green-700">Expert articles on plant care</p>
+            </div>
+          </Link>
+          <Link 
+            to="/tutorials" 
+            className="flex items-center gap-3 p-4 bg-green-50 rounded-lg hover:bg-green-100 transition-colors"
+          >
+            <Video className="h-6 w-6 text-green-600" />
+            <div>
+              <h3 className="font-medium text-green-800">Plant Tutorials</h3>
+              <p className="text-sm text-green-700">Video guides for plant care</p>
+            </div>
+          </Link>
+          <Link 
+            to="/faqs" 
+            className="flex items-center gap-3 p-4 bg-green-50 rounded-lg hover:bg-green-100 transition-colors"
+          >
+            <HelpCircle className="h-6 w-6 text-green-600" />
+            <div>
+              <h3 className="font-medium text-green-800">Plant FAQs</h3>
+              <p className="text-sm text-green-700">Common plant care questions</p>
+            </div>
+          </Link>
+          <Link 
+            to="/contact" 
+            className="flex items-center gap-3 p-4 bg-green-50 rounded-lg hover:bg-green-100 transition-colors"
+          >
+            <Mail className="h-6 w-6 text-green-600" />
+            <div>
+              <h3 className="font-medium text-green-800">Plant Support</h3>
+              <p className="text-sm text-green-700">Get help with your plants</p>
+            </div>
+          </Link>
         </div>
       </div>
     </div>

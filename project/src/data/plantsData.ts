@@ -11,7 +11,7 @@ export const plantsData: Plant[] = [
     waterNeeds: 'Medium',
     spaceNeeded: '1-2 sq ft',
     growingSeason: 'Spring, Summer',
-    harvestTime: '60-80 days',
+    harvestTime: '60-75 days',
     careInstructions: [
       'Plant in well-draining soil rich in organic matter',
       'Water consistently, keeping soil moist but not soggy',
